@@ -8,7 +8,9 @@
     "@babel/runtime": "^7.7.6",
     "@std/esm": "^0.26.0",
     "babel-node": "0.0.1-security",
+    "math": "0.0.3",
     "prettier": "^1.19.1",
+    "react": "^16.12.0",
     "readline-sync": "^1.4.10"
   },
   "devDependencies": {
@@ -31,7 +33,9 @@
     "supertest": "^4.0.2"
   },
   "scripts": {
-    "test": "jest --watchAll"
+    "test": "jest --watchAll",
+    "start": "npx babel-node ./main.js",
+    "tatts": "npx babel-node ./tatts.js"
   },
   "author": "",
   "license": "ISC"
