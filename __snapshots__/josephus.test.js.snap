@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Josephus gives correct sequence for n=5, k=2 1`] = `
+Array [
+  2,
+  4,
+  1,
+  5,
+  3,
+]
+`;
+
+exports[`Josephus gives correct sequence for n=25, k=4 1`] = `
+Array [
+  4,
+  8,
+  12,
+  16,
+  20,
+  24,
+  3,
+  9,
+  14,
+  19,
+  25,
+  5,
+  11,
+  18,
+  1,
+  10,
+  21,
+  6,
+  17,
+  7,
+  23,
+  15,
+  22,
+  2,
+  13,
+]
+`;
